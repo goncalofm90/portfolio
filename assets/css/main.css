@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400&display=swap');
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -84,8 +85,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		/* font-family: 'Source Sans Pro', sans-serif; */
-		font-family: 'Shadows Into Light', cursive;
+		font-family: 'Darker Grotesque', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -145,6 +145,12 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+	}
+
+	.overlay {
+		background-color: rgba(0, 0, 0, 0.7);
+		padding: 5%;
+		border-radius: 5px;
 	}
 
 		header > p {
@@ -1748,6 +1754,7 @@ input, select, textarea {
 	.polaroid {
 		color: #211f1f;
 		background-color: #fff;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 	.polaroid:hover {
@@ -1769,7 +1776,6 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			/* border-radius: 100px; */
 			border: 2px solid black;
 		
 		}
@@ -1808,6 +1814,7 @@ input, select, textarea {
 			.image.avatar48 img {
 				width: 65px;
 				height: 65px;
+				border-radius: 100px;
 			}
 
 		.image.fit {
